@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* body {
+    width: 1440px;
+} */
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700px;
+    font-size: 1.9rem;
+}
+a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+}
+header {
+    padding: 40px 100px;
+}
+.logo {
+    float: left;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+li.in-menu {
+    float: right;
+}
+li.in-menu a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+.big-container {
+    display: flex;
+    height: 50vh;
+    padding: 50px 100px 200px;
+    justify-content: center;
+    align-items: center;
+}
+.big-container2 {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.container3 {
+    padding: 60px 100px;
+    background-color: hsl(238, 22%, 44%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left3 {
+    width: 60%;
+}
+div.left3 > p {
+    width: 65%;
+    color: white;
+}
+div.left3 > h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+.right3 {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+.container4 {
+    padding: 60px 100px;
+    background-color: hsl(243, 87%, 12%);
+    display: flex;
+    align-items: center;
+    column-gap: 17%;
+}
+.container-left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    row-gap: 20px;
+}
+.container-left2 {
+    width: 45%;
+}
+.quoteImg {
+    float: left;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+div.quoteImg > img {
+    border-radius: 100px;
+    width: 40px;
+    margin-right: 10px;
+}
+.input1 {
+    width: 250px;
+    height: 28px;
+}
+.button1 {
+    width: 150px;
+    height: 30px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-radius: 2px;
+    border: turquoise;
+    padding: 5px 30px;
+}
+.input2 {
+    width: 350px;
+    height: 25px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 2px;
+    padding-left: 20px;
+}
+.button2 {
+    width: 190px;
+    height: 30px;
+    color: white;
+    border-radius: 2px;
+    border: turquoise;
+    padding: 5px 25px;
+    background-color: hsl(239, 74%, 56%);
+}
+input.input1 {
+    float: left;
+    margin-right: 15px;
+}
+.container-right {
+    width: 55%;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+}
+.container-right2 {
+    width: 50%;
+}
+.card {
+    width: 290px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+input, button {
+    width: 20%;
+}
+img.illustration {
+    width: 95%;
+    object-fit: contain;
+}
+img.illustration2 {
+    width: 70%;
+}
+.big-container2 {
+    background-image: url(images/bg-curve-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
